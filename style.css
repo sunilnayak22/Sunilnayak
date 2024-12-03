@@ -259,7 +259,7 @@ p{
 @media only screen and (max-width: 768px) {
   .notfy {
     margin-top: 0%;
-    margin-left: 30%;
+    margin-left: 28%;
     width: 40%;
     padding: 0px 10;
     border-radius: 14px;
@@ -267,19 +267,17 @@ p{
   .main-content{
     margin: 5% 0%;
     border-radius: 50px;
-      width:80%;
   }
   .sidebar{
     margin: 5% 0%;
     border-radius: 50px;
-    width:80%;
   }
   #projects{
     margin-left: 0;
   }
 
   .notfy-btn {
-    margin: 5px 5px;
+    margin: 5px 0px;
     font-size: 14px;
   }
 
