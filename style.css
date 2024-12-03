@@ -26,7 +26,15 @@ body {
     border-radius: 50%;
     margin-bottom: 15px;
   }
-  
+  #resume{
+  height: 700px;
+}
+#projects{
+  height: 800px;
+}
+.contact-info{
+  height: 120px;
+}
   h1 {
     font-size: 1.8em;
     margin: 10px 0;
