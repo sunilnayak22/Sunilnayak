@@ -297,19 +297,17 @@ p{
   .main-content{
     margin: 5% 0%;
     border-radius: 50px;
-    width:80%;
   }
   .sidebar{
     margin: 5% 0%;
     border-radius: 50px;
-    width:80%;
   }
   #projects{
     margin-left: 0;
   }
 
   .notfy-btn {
-    margin: 5px 10px;
+    margin: 5px 5px;
     font-size: 14px;
   }
 
@@ -344,7 +342,6 @@ p{
     display: flex;
     flex-direction: column;
     margin-left: 35%;
-      text-align:center;
   }
 }
 
