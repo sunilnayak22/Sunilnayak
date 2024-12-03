@@ -255,7 +255,37 @@ p{
     margin-left: 0;
   }
 }
+@media only screen and (max-width: 600px) {
+  .main-content,.sidebar,.card,.notfy,.notfy-btn{
+    margin-left: 0%;
+    }
+    .notfy{
+      margin-top: 10%;
+      }
+      .main-content,.sidebar,.card{
+        font-size: 12px;
+        }
+        .notfy{
+          margin-left: 20%;
+          }
+          .notfy-btn{
+            margin-left: 10%;
+            font-size: 8px;
+            }
+            .card{
+              margin-top: 10%;
+              }
+              .sidebar{
+                margin-top: 10%;
+                }
+                .main-content{
+                  margin-top: 10%;
+                  }
+                  .notfy{
+                    margin-top: 10%;
+                  }
 
+                }
 @media only screen and (max-width: 768px) {
   .notfy {
     margin-top: 0%;
