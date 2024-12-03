@@ -344,6 +344,7 @@ p{
     display: flex;
     flex-direction: column;
     margin-left: 35%;
+      text-align:center;
   }
 }
 
