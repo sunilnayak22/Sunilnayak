@@ -307,7 +307,7 @@ p{
   }
 
   .notfy-btn {
-    margin: 5px 0px;
+    margin: 5px 5px;
     font-size: 14px;
   }
 
@@ -341,7 +341,7 @@ p{
     font-size: 0.85em;
     display: flex;
     flex-direction: column;
-    margin-left: 35%;
+    margin-left: 30%;
   }
 }
 
