@@ -370,8 +370,17 @@ p{
     margin: 5px;
   }
   #projects{
-    height:900px
+     margin-left: 0;
   }
+}
+#resume{
+  height: 700px;
+}
+#projects{
+  height: 900px;
+}
+.contact-info{
+  height: 120px;
 }
 .project{
     height:200px;
