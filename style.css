@@ -252,10 +252,10 @@ p{
         .notfy {
             
             margin: 5px 0;
-            margin-left:26% ;
+            width:100%;
             text-align: center;
             padding: 5px;
-            border-radius: 10px;
+            border-radius: 15px;
         }
     
         .notfy-btn {
