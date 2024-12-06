@@ -232,150 +232,95 @@ i:hover{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
   background-color:#1e1e1e;
 }
-@media only screen and (max-width: 600px) {
-  .main-content,.sidebar,.card,.notfy,.notfy-btn{
-    margin-left: 0%;
-    }
-    .notfy{
-      margin-top: 10%;
-      }
-      .main-content,.sidebar,.card{
-        font-size: 12px;
-        }
-        .notfy{
-          margin-left: 20%;
-          }
-          .notfy-btn{
-            margin-left: 10%;
-            font-size: 8px;
-            }
-            .card{
-              margin-top: 10%;
-              }
-              .sidebar{
-                margin-top: 10%;
-                }
-                .main-content{
-                  margin-top: 10%;
-                  }
-                  .notfy{
-                    margin-top: 10%;
-                  }
-
-                }
 p{
   color: white;
 }
-@media only screen and (max-width: 1024px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 110%;
-    margin: 0;
-    border-radius: 0;
-  }
-
-  .main-content {
-    width: 100%;
-    margin: 0;
-    border-radius: 0;
-  }
-  #projects{
-    margin-left: 0;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .notfy {
-    margin-top: 0%;
-    margin-left: 30%;
-    width: 40%;
-    padding: 0px 10;
-    border-radius: 14px;
-  }
-  .main-content{
-    margin: 5% 0%;
-    border-radius: 50px;
-    width:100wh;
-  }
-  .sidebar{
-    margin: 5% 0%;
-    border-radius: 50px;
-    width:50wh;
-    margin-left:30%;
-  }
-  #projects{
-    margin-left: 0;
-  }
-
-  .notfy-btn {
-    margin: 5px 5px;
-    font-size: 14px;
-  }
-
-  h1, h2 {
-    font-size: 1.4em;
-  }
-
-  .card-container {
-    flex-direction: column;
-  }
-
-  .card {
-    margin-bottom: 20px;
-  }
-
-  .profile-img {
-    width: 80px;
-    height: 80px;
-  }
-
-  .social-links a {
-    font-size: 0.9em;
-    display: flex;
-    flex-direction: column;
-  }
-
-  p {
-    font-size: 0.85em;
-  }
-  .contact-info{
-    font-size: 0.85em;
-    display: flex;
-    flex-direction: column;
-    margin-left: 35%;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  h1, h2 {
-    font-size: 1.2em;
-  }
-
-  .notfy-btn {
-    font-size: 12px;
-    padding: 0px;
-  }
-
-  .skills {
-    font-size: 18px;
-  }
-
-  .social-links {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .social-links a {
-    margin: 5px;
-  }
-  #projects{
-     margin-left: 0;
-  }
-}
+ @media only screen and (max-width: 600px) {
+        body {
+            font-size: 14px;
+        }
+        #projects,#resume{
+            margin-left: 0%;
+            width: 95%;
+        }
+        .container {
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+    
+        .notfy {
+            
+            margin: 5px 0;
+            margin-left:26% ;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    
+        .notfy-btn {
+            font-size: 12px;
+            padding: 8px;
+            margin: 5px;
+            display: block;
+            text-align: center;
+        }
+    
+        .sidebar {
+            width: 98%;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+    
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+    
+        .main-content {
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+        }
+    
+        .social-links a {
+            font-size: 12px;
+            margin: 5px 0;
+        }
+    
+        h1, h2, h3 {
+            font-size: 1.2em;
+        }
+    
+        .contact-info {
+            font-size: 12px;
+            text-align: center;
+        }
+    
+        .card-container {
+            flex-direction: column;
+        }
+    
+        .card {
+            margin-bottom: 15px;
+        }
+    
+        .project {
+            margin-bottom: 15px;
+        }
+    
+        .skills {
+            font-size: 16px;
+        }
+    
+        footer {
+            text-align: center;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+    }    
 #resume{
   height: 700px;
 }
