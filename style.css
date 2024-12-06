@@ -298,10 +298,12 @@ p{
   .main-content{
     margin: 5% 0%;
     border-radius: 50px;
+    width:100wh;
   }
   .sidebar{
     margin: 5% 0%;
     border-radius: 50px;
+    width:110wh;
   }
   #projects{
     margin-left: 0;
