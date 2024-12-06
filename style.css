@@ -303,7 +303,8 @@ p{
   .sidebar{
     margin: 5% 0%;
     border-radius: 50px;
-    width:110wh;
+    width:50wh;
+    margin-left:30%;
   }
   #projects{
     margin-left: 0;
