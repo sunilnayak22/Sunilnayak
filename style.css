@@ -269,7 +269,7 @@ p{
         .sidebar {
             width: 98%;
             margin: 10px 0;
-            border-radius: 10px;
+            border-radius: 20px;
         }
     
         .profile-img {
@@ -282,7 +282,7 @@ p{
             width: 100%;
             margin: 10px 0;
             padding: 15px;
-            border-radius: 10px;
+            border-radius: 20px;
         }
     
         .social-links a {
@@ -307,9 +307,6 @@ p{
             margin-bottom: 15px;
         }
     
-        .project {
-            margin-bottom: 15px;
-        }
     
         .skills {
             font-size: 16px;
@@ -320,6 +317,8 @@ p{
             font-size: 12px;
             padding: 10px 0;
         }
+     #projects{
+         padding-bottom:50px;
     }    
 #resume{
   height: 700px;
