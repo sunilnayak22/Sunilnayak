@@ -285,7 +285,7 @@ p{
             border-radius: 20px;
         }
     
-        .social-links a {
+        .social-links a,.social-links i {
             font-size: 20px;
             margin: 5px 0;
         }
