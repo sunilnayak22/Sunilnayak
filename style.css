@@ -286,7 +286,7 @@ p{
         }
     
         .social-links a {
-            font-size: 12px;
+            font-size: 20px;
             margin: 5px 0;
         }
     
@@ -295,7 +295,7 @@ p{
         }
     
         .contact-info {
-            font-size: 12px;
+            font-size: 20px;
             text-align: center;
         }
     
@@ -319,7 +319,7 @@ p{
         }
     
      .project{
-         padding-bottom:60px 0px;
+         padding:60px 0px;
  }
      #projects{
          height:1200px;
