@@ -319,7 +319,9 @@ p{
         }
      #projects{
          padding-bottom:50px;
-    }    
+    }  
+     .project{
+         padding-bottom:20px;
  }
 #resume{
   height: 700px;
