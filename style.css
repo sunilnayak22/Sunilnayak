@@ -318,12 +318,12 @@ p{
             padding: 10px 0;
         }
     
-     .project{
-         padding:60px 0px;
- }
-     #projects{
-         height:1200px;
-     }
+    .project{
+       margin-top: 15%;
+}
+#projects p{
+  margin: 8px 0px;
+}
  }
 #resume{
   height: 700px;
