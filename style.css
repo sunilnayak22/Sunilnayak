@@ -317,11 +317,12 @@ p{
             font-size: 12px;
             padding: 10px 0;
         }
-     #projects{
-         padding-bottom:50px;
-    }  
+    
      .project{
-         padding-bottom:20px;
+         padding-bottom:60px 0px;
+ }
+     #projects{
+         height:1200px;
  }
 #resume{
   height: 700px;
