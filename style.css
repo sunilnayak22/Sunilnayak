@@ -336,6 +336,7 @@ p{
 }
 .project{
     height:150px;
+    margin-top:30px;
 }
 .card:hover{
   transform: scale(1.1);
