@@ -1,346 +1,364 @@
 /* styles.css */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #fff;
-  }
-  
-  .container {
-    display: flex;
-    min-height: 100vh;
-  }
-  
-  .sidebar {
-    width: 25%;
-    background-color: #1e1e1e;
-    padding: 20px;
-    text-align: center;
-    border-radius: 30px;
-    margin: 5%;
-  }
-  
-  .profile-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-  }
-  #resume{
-  height: 700px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
 }
-#projects{
-  height: 800px;
-}
-.contact-info{
-  height: 120px;
-}
-  h1 {
-    font-size: 1.8em;
-    margin: 10px 0;
-  }
-  
-  .role {
-    font-size: 1.2em;
-    color: #f0a500;
-  }
-  
-  .contact-info p, .social-links a, .footer {
-    margin: 10px 0;
-    font-size: 0.9em;
-    color: #bbb;
-    display: flex;
 
-  }
-  
-  .social-links a {
-    color: #f0a500;
-    text-decoration: none;
-    margin-right: 10px;
-  }
-  
-  .main-content {
-    width: 75%;
-    padding: 40px;
-    border-radius: 30px;
-    background-color:#1e1e1e;
-    margin: 6%;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    margin-bottom: 15px;
-    color: #f0a500;
-  }
-  
-  .card-container {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .card {
-    background-color: #1e1e1e;
-    padding: 20px;
-    border-radius: 8px;
-    flex: 1;
-  }
-  
-  .card h3 {
-    margin: 0 0 10px;
-    color: #f0a500;
-  }
-  
-  .card p {
-    font-size: 0.9em;
-    color: #ccc;
-  }
-  
-  .footer {
-    margin-top: 20px;
-    font-size: 0.8em;
-    color: #bbb;
-  }
-.notfy-btn{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 10px;
-  font-size: 20px;
-  background-color: #f0a500;
-  color: #1e1e1e;
-  border: none;
-  margin:15px;
-  border-radius: 20px;
-  text-decoration: none;
+.container {
+  display: flex;
+  min-height: 100vh;
 }
-.notfy-btn:hover{
-  background-color: #000000;
-  color: white;
+
+.sidebar {
+  width: 25%;
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+  margin: 5%;
 }
-#projects{
-  margin-left:20%;
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 #resume{
-  margin-left:0%;
+height: 700px;
+}
+#projects{
+height: 800px;
+}
+.contact-info{
+height: 120px;
+}
+h1 {
+  font-size: 1.8em;
+  margin: 10px 0;
+}
+
+.role {
+  font-size: 1.2em;
+  color: #f0a500;
+}
+
+.contact-info p, .social-links a, .footer {
+  margin: 10px 0;
+  font-size: 0.9em;
+  color: #bbb;
+  display: flex;
+
+}
+
+.social-links a {
+  color: #f0a500;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.main-content {
+  width: 75%;
+  padding: 40px;
+  border-radius: 30px;
+  background-color:#1e1e1e;
+  margin: 6%;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #f0a500;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  color: #f0a500;
+}
+
+.card p {
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #bbb;
+}
+.notfy-btn{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 10px;
+font-size: 20px;
+background-color: #f0a500;
+color: #1e1e1e;
+border: none;
+margin:15px;
+border-radius: 20px;
+text-decoration: none;
+}
+.notfy-btn:hover{
+background-color: #000000;
+color: white;
+}
+#projects{
+margin-left:9.5%;
+margin-right: 0%;
+}
+#resume{
+margin-left:9.5%;
+margin-right: 0%;
 }
 a{
-  text-decoration: none;
-  text-decoration-line: none;
-  color: black;
+text-decoration: none;
+text-decoration-line: none;
+color: black;
 }
 .social-links{
-  display: flex;
-  flex-direction: column;
-  height: 150px;
+display: flex;
+flex-direction: column;
+height: 150px;
 }
 .skills{
-  font-size: 25px;
+font-size: 25px;
 }
 /* .main-content:hover,.sidebar:hover{
-  color: #fff;
-  background-color: black;
+color: #fff;
+background-color: black;
 }
 .main-content:hover,.sidebar:hover > * {
-  background-color: black;
+background-color: black;
 }
 .main-content:hover * ,.sidebar:hover * {
-  background-color: black;
+background-color: black;
 } */
 i:hover{
-  font-size: 30px;
+font-size: 30px;
 }
 #window{
-  color: rgb(0, 183, 255);
+color: rgb(0, 183, 255);
 }
 @keyframes moveLeftToRight {
-  0% {
-    right: -100%;
-  }
-  100% {
-    right: calc(0%); 
-  }
+0% {
+  right: -100%;
+}
+100% {
+  right: calc(0%); 
+}
 }
 
 #About,#projects{
-  animation: moveLeftToRight 3s; 
-  position: relative;
+animation: moveLeftToRight 3s; 
+position: relative;
 }
 @keyframes moveRightToLeft {
-  0% {
-    left: -100%;
-    }
-    100% {
-      left: calc(0%);
-    }
+0% {
+  left: -100%;
   }
-  .sidebar,#resume{
-    animation: moveRightToLeft 3s;
-    position: relative;
+  100% {
+    left: calc(0%);
   }
+}
+.sidebar,#resume{
+  animation: moveRightToLeft 3s;
+  position: relative;
+}
 @keyframes toptobottom{
-  0% {
-    top: -100%;
-    }
-    100% {
-      top: calc(0%);
+0% {
+  top: -100%;
+  }
+  100% {
+    top: calc(0%);
 }}
 .notfy,.notfy-btn {
-  background-color:#1e1e1e;
-  padding: 7px 20px;
-  background: linear-gradient(to right,#433310,black);
-  background-size: 0% 100%; 
-  background-repeat: no-repeat;
-  color:#f0a500;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  overflow: hidden;
-  transition: background-size 0.5s ease;
-  animation: toptobottom 3s;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+background-color:#1e1e1e;
+padding: 7px 20px;
+background: linear-gradient(to right,#433310,black);
+background-size: 0% 100%; 
+background-repeat: no-repeat;
+color:#f0a500;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+overflow: hidden;
+transition: background-size 0.5s ease;
+animation: toptobottom 3s;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .notfy:hover,.notfy-btn:hover {
-  background-size: 100% 100%; /* Expand horizontally */
+background-size: 100% 100%; /* Expand horizontally */
 }
 
 .notfy,.notfy-btn span {
-  position: relative; /* Keeps the text unaffected */
-  z-index: 1;
+position: relative; /* Keeps the text unaffected */
+z-index: 1;
 }
 .notfy{
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  margin-left: 40%;
-  background-color: #1e1e1e;
-  border-radius: 40px;
-  margin-top: 3px;
+  width: 100%;
+  height: 58px;
+display: flex;
+justify-content: center;
+position: fixed;
+margin-left: 0%;
+background-color: #1e1e1e;
 }
 .main-content,.sidebar,.card{
-  background: linear-gradient(to right,#433310,black);
-  background-size: 0% 100%;
-  background-repeat: no-repeat;
-  color:#f0a500;
-  font-size: 16px;
-  font-weight: bold;
-  overflow: hidden;
-  transition: background-size 0.5s ease;
+background: linear-gradient(to right,#433310,black);
+background-size: 0% 100%;
+background-repeat: no-repeat;
+color:#f0a500;
+font-size: 16px;
+font-weight: bold;
+overflow: hidden;
+transition: background-size 0.5s ease;
 }
 .main-content:hover,.sidebar:hover,.card:hover  * {
-  background-size: 100% 100%;
+background-size: 100% 100%;
 }
 .main-content,.sidebar{
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
-  background-color:#1e1e1e;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+background-color:#1e1e1e;
 }
 p{
-  color: white;
+color: white;
 }
- @media only screen and (max-width: 600px) {
-        body {
-            font-size: 14px;
-        }
-        #projects,#resume{
-            margin-left: 0%;
-            width: 95%;
-        }
-        .container {
-            flex-direction: column;
-            align-items: center;
-            padding: 10px;
-        }
-    
-        .notfy {
-            
-            margin: 8px 0;
-            width:100%;
-            text-align: center;
-            padding: 5px;
-            border-radius: 15px;
-        }
-    
-        .notfy-btn {
-            font-size: 12px;
-            padding: 8px;
-            margin: 5px;
-            display: block;
-            text-align: center;
-        }
-    
-        .sidebar {
-            width: 98%;
-            margin: 10px 0;
-            border-radius: 20px;
-        }
-    
-        .profile-img {
-        width: 160px;
-        height: 160px;
-        margin-bottom: 10px;
-    }
-    
-        .main-content {
-            width: 100%;
-            margin: 10px 0;
-            padding: 15px;
-            border-radius: 20px;
-        }
-    
-        .social-links a,.social-links i {
-            font-size: 20px;
-            margin: 5px 0;
-        }
-    
-        h1, h2, h3 {
-            font-size: 1.2em;
-        }
-    
-        .contact-info {
-            font-size: 20px;
-            text-align: center;
-        }
-    
-        .card-container {
-            flex-direction: column;
-        }
-    
-        .card {
-            margin-bottom: 15px;
-        }
-    
-    
-        .skills {
-            font-size: 16px;
-        }
-    
-        footer {
-            text-align: center;
-            font-size: 12px;
-            padding: 10px 0;
-        }
-    
-    .project{
-       margin-top: 15%;
+@media only screen and (max-width: 600px) {
+      body {
+          font-size: 14px;
+      }
+      #projects,#resume{
+          margin-left: 0%;
+          width: 95%;
+      }
+      .container {
+          flex-direction: column;
+          align-items: center;
+          padding: 10px;
+      }
+  .name{
+    display: none;
+  }
+      .notfy {
+          
+          margin: 0px 0;
+          height: auto;
+          width:100%;
+          text-align: center;
+          padding: 5px;
+          border-radius: 0px;
+          background: linear-gradient(to right,#433310,black);
+          background-size: 0% 100%;
+          background-repeat: no-repeat;
+      }
+  
+      .notfy-btn {
+          font-size: 12px;
+          padding: 12px;
+          margin: 10px;
+          display: block;
+          text-align: center;
+      }
+  
+      .sidebar {
+          width: 98%;
+          margin: 10px 0;
+          border-radius: 0px;
+      }
+  
+      .profile-img {
+      width: 160px;
+      height: 160px;
+      margin-bottom: 10px;
+  }
+  
+      .main-content {
+          width: 100%;
+          margin: 10px 0;
+          padding: 15px;
+          border-radius: 0px;
+      }
+  
+      .social-links a,.social-links i {
+          font-size: 20px;
+          margin: 5px 0;
+      }
+  
+      h1, h2, h3 {
+          font-size: 1.2em;
+      }
+  
+      .contact-info {
+          font-size: 20px;
+          text-align: center;
+      }
+  
+      .card-container {
+          flex-direction: column;
+      }
+  
+      .card {
+          margin-bottom: 15px;
+      }
+  
+  
+      .skills {
+          font-size: 16px;
+      }
+  
+      footer {
+          text-align: center;
+          font-size: 12px;
+          padding: 10px 0;
+      }
+  
+  .project{
+     margin-top: 15%;
 }
 #projects p{
-  margin: 8px 0px;
+margin: 8px 0px;
 }
- }
+}
 #resume{
-  height: 700px;
+height: 700px;
 }
 #projects{
-  height: 900px;
+height: 900px;
 }
 .contact-info{
-  height: 120px;
+height: 120px;
 }
 .project{
-    height:150px;
-    margin-top:45px;
+  height:150px;
+  margin-top:45px;
 }
 .card:hover{
-  transform: scale(1.1);
+transform: scale(1.1);
 }
 #projects{
-    height:900px;
+  height:900px;
+}
+.skillsbox{
+  display: flex;
+  flex-direction: row;
+  gap: 50%;
+}
+.name{
+  font-size: 20px;
+  color: #f0a500;
+  margin-right: 60%;
 }
