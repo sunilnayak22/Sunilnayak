@@ -336,9 +336,6 @@ margin: 8px 0px;
 #resume{
 height: 700px;
 }
-#projects{
-height: 900px;
-}
 .contact-info{
 height: 120px;
 }
@@ -350,7 +347,7 @@ height: 120px;
 transform: scale(1.1);
 }
 #projects{
-  height:900px;
+height: 1100px;
 }
 .skillsbox{
   display: flex;
