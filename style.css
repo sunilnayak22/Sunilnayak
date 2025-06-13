@@ -122,7 +122,7 @@ background: linear-gradient(0deg, #ffffff 0%, #474bff 100%);
 
 .greeting {
   font-size: 1.2rem;
-  color: #667eea;
+  color: white;
   font-weight: 500;
   margin-bottom: 0.5rem;
   animation: fadeInUp 1s ease 0.3s both;
