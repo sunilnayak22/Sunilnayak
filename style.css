@@ -122,7 +122,7 @@ background: linear-gradient(0deg, #ffffff 0%, #474bff 100%);
 
 .greeting {
   font-size: 1.2rem;
-  color: white;
+  color: #667eea;
   font-weight: 500;
   margin-bottom: 0.5rem;
   animation: fadeInUp 1s ease 0.3s both;
@@ -749,6 +749,14 @@ background: linear-gradient(0deg, #ffffff 0%, #474bff 100%);
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .nav-container {
+    height: auto;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
   .nav-links {
     display: none;
   }
@@ -793,6 +801,10 @@ background: linear-gradient(0deg, #ffffff 0%, #474bff 100%);
   .container {
     padding: 0 1rem;
   }
+  .image-container{
+    height: auto;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -830,3 +842,4 @@ body {
 body.loaded {
   opacity: 1;
 }
+
