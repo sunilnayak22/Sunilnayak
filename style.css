@@ -749,6 +749,9 @@ background: linear-gradient(0deg, #ffffff 0%, #474bff 100%);
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .greeting{
+    color: #c3cfe2;
+  }
   .nav-container {
     display: none;
     
@@ -804,6 +807,12 @@ background: linear-gradient(0deg, #ffffff 0%, #474bff 100%);
 }
 
 @media (max-width: 480px) {
+  .greeting{
+    color: #c3cfe2;
+  }
+  .nav-container {
+    display: none;
+  }
   .hero-buttons {
     flex-direction: column;
     align-items: center;
@@ -821,6 +830,10 @@ background: linear-gradient(0deg, #ffffff 0%, #474bff 100%);
 
   .skills-grid {
     grid-template-columns: 1fr;
+  }
+    .image-container{
+    height: auto;
+    width: 100%;
   }
 }
 
