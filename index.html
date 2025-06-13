@@ -1,126 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/171035317?v=4">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunilnayak - Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/171035317?v=4">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
 <body>
-  <div class="notfy" id="notfy">
-    <h1 class="name">Sunil nayak</h1>
-    <a href="#container" class="notfy-btn">About</a>
-    <a class="notfy-btn"href="#resume">Resume</a>
-    <a class="notfy-btn" href="#projects">Projects</a>
-  </div>
-  <div class="container" id="container">
-    <div class="sidebar">
-      <img src="https://avatars.githubusercontent.com/u/171035317?v=4" alt="Profile Picture" class="profile-img">
-      <h1>Sunil Nayak</h1>
-      <p class="role">Web Developer</p>
-      <div class="contact-info">
-        <p><strong><i class="fa-solid fa-envelope" style="color: #f0a500;"></i>:Email:</strong>sunilnyk2345@gmail.com</p>
-        <p><strong><i class="fa-solid fa-phone" style="color: rgb(7, 255, 7);"></i>:Phone:</strong> +91 8617315294</p>
-        <p><strong><i class="fa-solid fa-location-dot" style="color: red;"></i>:Location:</strong> churu,Rajasthan, India</p>
-      </div>
-      <div class="social-links">
-        <a href="www.linkedin.com/in/sunil-kumar-332790304"><i class="fa-brands fa-linkedin" style="color: rgb(0, 183, 255);"></i>    :LinkedIn</a>
-        <a href="https://github.com/sunilnayak22"><i class="fa-brands fa-github" style="color: rgb(255, 255, 255);"></i>    :GitHub</a>
-        <a href="https://x.com/SunilNa57809415"> <i class="fa-brands fa-x-twitter" style="color: rgb(255, 255, 255);"></i>    :Twitter</a>
-        <a href="https://www.instagram.com/sunilnayak_20/"> <i class="fa-brands fa-instagram" style="color: rgb(249, 0, 149);"></i>   :Instagram</a>
-      </div>
-    </div>
-    <div class="main-content" id="About">
-      <h2>About Me</h2>
-      <p>
-        A final-year MGSU university student, Rajasthan, 
-        majoring in Bachelor of Computer Applications. My passion lies in 
-        web Development And App Development, areas where I'm constantly honing my skills to excel.
-      </p>
-      <p>
-        Passionate about technology and its applications, I find joy in contributing to projects 
-        and leveraging my skills to solve real-world problems. Beyond academics and coding, I find 
-        solace and enjoyment in playing games, which serves as both a recreational activity and a source of inspiration.
-      </p>
+    <div class="portfolio" id="portfolio">
+        <!-- Navigation -->
+        <nav class="nav" id="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <span>Sunil nayak</span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><button onclick="scrollToSection('home')" class="nav-btn active" data-section="home">Home</button></li>
+                    <li><button onclick="scrollToSection('about')" class="nav-btn" data-section="about">About</button></li>
+                    <li><button onclick="scrollToSection('skills')" class="nav-btn" data-section="skills">Skills</button></li>
+                    <li><button onclick="scrollToSection('education')" class="nav-btn" data-section="education">Education</button></li>
+                    <li><button onclick="scrollToSection('projects')" class="nav-btn" data-section="projects">Projects</button></li>
+                    <li><button onclick="scrollToSection('contact')" class="nav-btn" data-section="contact">Contact</button></li>
+                </ul>
+            </div>
+        </nav>
 
-      <h2>What I'm Doing</h2>
-      <div class="card-container">
-        <div class="card">
-          <h3>Web Development</h3>
-          <p>Proficient in designing, developing, and deploying responsive, user-centric websites and web applications using modern frameworks and technologies like HTML, CSS, JavaScript, React, and Node.js</p>
-        </div>
-      </div>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Sunilnayak</span>
+                        <span class="title">Full Stack Developer</span>
+                    </h1>
+                    <p class="hero-description">
+                        Passionate about creating beautiful, functional, and user-centered digital experiences. I specialize in
+                        modern web technologies and love bringing ideas to life through code.
+                    </p>
+                    <div class="hero-buttons">
+                        <button onclick="scrollToSection('projects')" class="primary-btn">
+                            View My Work
+                        </button>
+                        <button onclick="scrollToSection('contact')" class="secondary-btn">
+                            Get In Touch
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="https://avatars.githubusercontent.com/u/171035317?v=4" alt="Profile">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator" onclick="scrollToSection('about')">
+                <i data-lucide="chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                           A MGSU university student, Rajasthan, majoring in Bachelor of Computer Applications. My passion lies in web Development And App Development, areas where I'm constantly honing my skills to excel.
+
+Passionate about technology and its applications, I find joy in contributing to projects and leveraging my skills to solve real-world problems. Beyond academics and coding, I find solace and enjoyment in playing games, which serves as both a recreational activity and a source of inspiration.
+                        </p>
+                        <p>
+                            I specialize in React, firebase, and Node.js, but I'm always eager to learn new technologies and tackle
+                            challenging problems. When I'm not coding, you can find me contributing to open-source projects, writing
+                            technical blogs, or exploring the latest in web development trends.
+                        </p>
+                        <p>
+                            I believe in writing clean, maintainable code and creating user experiences that are both beautiful and
+                            functional. Let's build something amazing together!
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Technologies Mastered</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">GitHub Commits</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Learning Mindset</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid" id="skillsGrid">
+                    <!-- Skills will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-timeline">
+                    <div class="education-item">
+                        <div class="education-year">2022-2025</div>
+                        <div class="education-content">
+                            <h3 class="education-degree">Bachelor of Computer Applications</h3>
+                            <h4 class="education-school">Maharaja Ganga Singh University, Rajasthan</h4>
+                            <p class="education-description">Graduated with honors, specialized in Software Engineering and Web Development</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-year">2020-2021</div>
+                        <div class="education-content">
+                            <h3 class="education-degree">Higher Secondary Education (12th Grade)</h3>
+                            <h4 class="education-school">From RBSE board</h4>
+                            <p class="education-description">Scored 83% percentage</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://static.vecteezy.com/system/resources/previews/030/925/021/non_2x/blogging-icon-design-free-png.png" alt="E-Commerce Platform">
+                            <div class="project-overlay">
+                                <a href="https://blog-app-sand-five.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i data-lucide="external-link"></i>
+                                    <span>View Live</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Blog App</h3>
+                            <p class="project-description">
+                                A modern blogging platform where users can create, read, update, and delete blog posts. Built with React and Firebase for real-time data handling.
+                            </p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Git</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.pinimg.com/736x/80/7b/5c/807b5ce423d30a960046f829dfa08247.jpg" alt="Task Management App">
+                            <div class="project-overlay">
+                                <a href="https://chat-app-woad-one-61.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i data-lucide="external-link"></i>
+                                    <span>View Live</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Chat App</h3>
+                            <p class="project-description">
+                                A real-time chat application built with React and Firebase, allowing users to create accounts, join rooms, and send messages instantly.
+                            </p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://tvnz-1-news-prod.cdn.arcpublishing.com/resizer/v2/rainy-weather-file-image-stock-file-generic-storm-stormy-rai-MNR7XWMAD5BUNOU42KGYTFXAHM.jpg?auth=9b9bdda77a739c14390d3483dd72e8a398368e4d98f0d58a8bf901b4122a5a47&quality=70" alt="Weather Dashboard">
+                            <div class="project-overlay">
+                                <a href="https://weather-app-peach-one-42.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i data-lucide="external-link"></i>
+                                    <span>View Live</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-description">A responsive weather dashboard that provides detailed weather information and forecasts with beautiful data visualizations.</p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">GitHub/Git</span>
+                                <span class="tech-tag">Weather API</span>
+                                <span class="tech-tag">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's work together!</h3>
+                        <p>
+                            I'm always interested in new opportunities and exciting projects. Whether you have a question or just
+                            want to say hi, feel free to reach out!
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i data-lucide="mail"></i>
+                                <span>sunilnyk2345@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i data-lucide="phone"></i>
+                                <span>+91 6376553578</span>
+                            </div>
+                            <div class="contact-item">
+                                <i data-lucide="map-pin"></i>
+                                <span>churu Rajasthan, india</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/sunilnayak22" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="github"></i>
+                            </a>
+                            <a href="www.linkedin.com/in/sunil-nayak-332790304" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xzzgzyvl" method="POST">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2024 sunil nayak. All rights reserved.</p>
+            </div>
+        </footer>
     </div>
-  </div>
-  <div class="main-content" id="resume">
-    <span><h1 style="color: #f0a500;"><i class="fa-solid fa-graduation-cap" style="color: white;"></i>:Education</h1></span>
-<p>Currently pursuing Bachelor of Computer Applications from Maharaja Ganga Singh University, Rajasthan</p>
-<p>Completed 12th from Rajasthan Board of Secondary Education, Rajasthan</p>
-<h4>2022 — Present</h4>
-<h1> <i class="fas fa-briefcase icon"></i>:Fresher</h1>
-<p>Currently learning as a Fresher</p>
-<h1><i class="fas fa-tools icon"></i>:Skills</h1>
-<div class="skillsbox">
-  <div class="skills">
-    <p> <i class="fab fa-html5" style="color: #E34C26;"></i> HTML</p> 
-    <p> <i class="fab fa-css3-alt" style="color: #2965f1;"></i> CSS</p>
-    <p>  <i class="fab fa-js" style="color: #F7DF1E;"></i> JavaScript</p>
-    <p> <i class="fas fa-code" style="color: #00599C;"></i> C++</p>
-    <p><i class="fab fa-java" style="color: #007396;"></i> Java</p>
-    <p> <i class="fas fa-copyright" style="color: #00599C;"></i> C</p>
-        <p><i class="bi bi-alarm"></i>Bootstrap</p>
-        <p><i class="fa-brands fa-react" style="color: #00599C;"></i>React</p>
-    </div>
-    <div class="skills">
-      <p><i class="fa-solid fa-database"></i>MongoDB</p>
-    <p><i class="fa-brands fa-node-js" style="color: #8CC84B;"></i>Node.js</p>
-    <p><i class="fa-brands fa-git-alt" style="color: #F05032;"></i>Git</p>
-    <p><i class="fa-solid fa-database" style="color: #2965f1;"></i>MySQL</p>
-    <p><i class="fa-brands fa-github" style="color: #181717;"></i>GitHub</p>
-    <p><i class="fa-solid fa-database" style="color: #fb0000;"></i>Firebase</p>
-    <p><i class="fa-brands fa-php" style="color: #007396;"></i>PHP</p>
-    <p><i class="fa-solid fa-ranking-star" style="color: #ff0561;"></i></i>SEO</p>
-    </div>
-</div>
-  </div>
-    <div class="main-content" id="projects">
-    <h1><i class="fa-solid fa-diagram-project"></i> Projects</h1>
-    <div class="project">
-      <p>Project-1</p>
-      <p><i class="fa-solid fa-blog"></i> Frontend-blog</p>
-      <p>Skills used:<i class="fab fa-html5" style="color: #E34C26;"></i> HTML,<i class="fab fa-css3-alt" style="color: #2965f1;"></i> CSS;</p>
-      <p>Developed a responsive frontend-blog website using HTML and css with an engaging user interface</p>
-      <a href="https://frontend-blog-amber.vercel.app/"><i class="fa-solid fa-link"></i> Live Link</a></div>
-    <div class="project"><p>Project-2</p>
-      <p> <i class="fas fa-palette icon" style="color: rgb(159, 66, 66);"></i> Colour switcher</p>
-      <p>Skills used:<i class="fab fa-html5" style="color:#E34C26;"></i> HTML,<i class="fab fa-css3-alt"style="color: #2965f1;"></i> CSS,<i class="fab fa-js" style="color: #F7DF1E;"></i> JavaScript;</p>
-      <p>Project Description: This project is a simple colour switcher that allows users to change the background colour of the webpage by clicking on different buttons.</p>
-      <a href="https://singular-malasada-1731a0.netlify.app/"><i class="fa-solid fa-link"></i> Live Link</a></div>
-   <div class="project"> <p>Project-3</p>
-    <p><i class="fa-solid fa-layer-group"></i> Filtered array</p>
-    <p>Skills used:<i class="fab fa-html5" style="color:#E34C26;"></i> HTML,<i class="fab fa-css3-alt" style ="color: #2965f1;"></i> CSS<i class="fab fa-js" style="color: #F7DF1E;"></i> JavaScript;</p>
-    <p>Project Description: This project is a simple webpage that filters an array of objects based on user input. It uses JavaScript to create a dynamic and interactive user interface.</p>
-    <a href="https://teal-pudding-e3da9f.netlify.app/"><i class="fa-solid fa-link"></i> Live Link</a></div>
-    <div class="project"><p>project-4</p>
-      <p><i class="fa-solid fa-list-ol"></i> Number counter</p>
-      <p>Skills used:<i class="fab fa-html5" style="color: #E34C26;"></i> HTML,<i class="fab fa-css3-alt" style="color: #2965f1;"></i> CSS,<i class="fab fa-js"style="color: #F7DF1E;"></i> JavaScript;</p>
-      <p>Project Description: This project is a simple webpage that counts up from 0 toa user-specified number. It uses JavaScript to create a dynamic and interactive user interface.</p>
-      <a href="https://storied-dusk-ef08e7.netlify.app/"><i class="fa-solid fa-link"></i> Live Link</a></div>
-        <div class="project"><p>project-5</p>
-      <p><i class="fa-solid fa-calculator"></i> Calculator</p>
-      <p>Skills used:<i class="fab fa-html5" style="color: #E34C26;"></i> HTML,<i class="fab fa-css3-alt" style="color: #2965f1;"></i> CSS,<i class="fab fa-js"style="color: #F7DF1E;"></i> JavaScript;</p>
-      <p>
-        Project Description: This project is a simple calculator that performs basic arithmetic operations. It uses JavaScript to create a dynamic and interactive user interface.</p>
-      </p>
-      <a href="https://calculator-zeta-indol.vercel.app/"><i class="fa-solid fa-link"></i> Live Link</a></div>
-       </div>
- </div>
-  <footer>
-  <p class="footer">Made with love by Sunil Nayak</p>
- </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
+
