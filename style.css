@@ -750,12 +750,8 @@ background: linear-gradient(0deg, #ffffff 0%, #474bff 100%);
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-container {
-    height: auto;
-    background-color: #0b0b0b;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
+    display: none;
+    
   }
   .nav-links {
     display: none;
