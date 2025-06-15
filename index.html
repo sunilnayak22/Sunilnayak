@@ -9,6 +9,13 @@
      <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/171035317?v=4">
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function() {
+    emailjs.init("Iy-ufdmJKMyG-ESWA"); 
+  })();
+</script>
+
 </head>
 <body>
     <div class="portfolio" id="portfolio">
@@ -125,7 +132,7 @@ Passionate about technology and its applications, I find joy in contributing to 
                         </div>
                     </div>
                     <div class="education-item">
-                        <div class="education-year">2021</div>
+                        <div class="education-year">2020-2021</div>
                         <div class="education-content">
                             <h3 class="education-degree">Higher Secondary Education (12th Grade)</h3>
                             <h4 class="education-school">From RBSE board</h4>
@@ -248,23 +255,23 @@ Passionate about technology and its applications, I find joy in contributing to 
                             </a>
                         </div>
                     </div>
-                    <form class="contact-form" id="contactForm" action="https://formsubmit.co/el/birize" method="POST">
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">
-                            Send Message
-                        </button>
-                    </form>
+                    <form class="contact-form" id="contactForm">
+    <div class="form-group">
+        <input type="text" name="from_name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+        <input type="email" name="from_email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+        <input type="text" name="subject" placeholder="Subject" required>
+    </div>
+    <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="submit-btn">
+        Send Message
+    </button>
+</form>
                 </div>
             </div>
         </section>
@@ -280,4 +287,5 @@ Passionate about technology and its applications, I find joy in contributing to 
     <script src="./script.js"></script>
 </body>
 </html>
+
 
