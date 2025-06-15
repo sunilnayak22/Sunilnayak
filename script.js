@@ -109,22 +109,6 @@ function setActiveSection(section) {
     }
   })
 }
-
-function handleFormSubmit(e) {
-  e.preventDefault()
-
-  // Get form data
-  const formData = new FormData(e.target)
-  const data = Object.fromEntries(formData)
-
-  // Here you would typically send the data to a server
-  // For now, we'll just show an alert
-  alert("Thank you for your message! I'll get back to you soon.")
-
-  // Reset form
-  e.target.reset()
-}
-
 // Smooth scrolling for older browsers
 function smoothScroll(target) {
   const element = document.querySelector(target)
@@ -165,4 +149,24 @@ document.addEventListener("DOMContentLoaded", observeElements)
 window.addEventListener("load", () => {
   document.body.style.opacity = "1"
 })
+ function handleFormSubmit(e) {
+  e.preventDefault();
 
+  // Use emailjs to send the form
+  emailjs.sendForm(
+    "service_2ip18gh",    
+    "template_vz6n919", 
+    e.target
+  ).then(
+    function () {
+      alert("Email sent successfully!");
+    },
+    function (error) {
+      console.log("FAILED...", error);
+      alert("Failed to send email. Please try again.");
+    }
+  );
+
+  // Optionally reset the form after sending
+  e.target.reset();
+}
